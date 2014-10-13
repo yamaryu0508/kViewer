@@ -2,6 +2,9 @@
 
 [kViewer](http://kv.kintoneapp.com/)のJavaScript/CSSカスタマイズサンプル集。kViewerは[サイボウズスタートアップス](http://www.cstap.com/)さんからリリースされている、kintoneのデータやグラフを外部に公開できるサービスです。
 
+![kviewer](http://kv.kintoneapp.com/images/home04.png)
+（[公式ページ](http://kv.kintoneapp.com/)より）
+
 **(NOTICE)** ご利用は自己責任でお願い致します。
 
 ## コンテンツ
