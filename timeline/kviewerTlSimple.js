@@ -67,7 +67,7 @@
         return;
     }
 
-    loadJS('https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js');
+    loadJS('https://cdn.jsdelivr.net/jquery/2.1.1/jquery.min.js');
     loadJS('https://s3.amazonaws.com/cdn.knightlab.com/libs/timeline/latest/js/timeline-min.js');
     loadJS('https://s3.amazonaws.com/cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js');
     loadCSS('https://s3.amazonaws.com/cdn.knightlab.com/libs/timeline/latest/css/timeline.css');
