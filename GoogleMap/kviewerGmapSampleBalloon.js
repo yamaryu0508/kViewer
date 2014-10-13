@@ -109,9 +109,9 @@
     function getElementText(element) {
         if(element){
             if (element.innerText !== undefined) {
-                return element.innerText.replace(/\r?\n((?!\r?\n)|(?=\r?\n\r?\n\r?\n))/g,'').replace(/\s+/g, '');
+                return element.innerText.replace(/\r?\n((?!\r?\n)|(?=\r?\n\r?\n\r?\n))/g,'').replace(/(^\s+)|(\s+$)/g, '');
             } else if (element.textContent !== undefined) {
-                return element.textContent.replace(/\r?\n((?!\r?\n)|(?=\r?\n\r?\n\r?\n))/g,'').replace(/\s+/g, '');
+                return element.textContent.replace(/\r?\n((?!\r?\n)|(?=\r?\n\r?\n\r?\n))/g,'').replace(/(^\s+)|(\s+$)/g, '');
             }
         }else{
             return '';
