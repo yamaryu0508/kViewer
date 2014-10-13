@@ -6,6 +6,7 @@
 
 ## コンテンツ
 * **/GoogleMap** - Google Maps APIを用いたカスタマイズ例
+* **/timeline** - TimelineJSを用いたカスタマイズ例
 
 ## 関連情報
 * kintone on cybozu.com [ [English](https://kintone.cybozu.com/us/ "English page") | [日本語](https://kintone.cybozu.com/jp/ "日本語") ]
