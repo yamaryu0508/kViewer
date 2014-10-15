@@ -67,6 +67,7 @@
         // マーカーを設定
         // マーカーデータを格納
         var infowindow = new google.maps.InfoWindow();
+        var titles = getViewColumnValues('タイトル');
  
         for (i=0; i < lat.length ; i+=1){
             if (isNaN(lat[i]) === false && isNaN(lng[i]) === false){
@@ -78,7 +79,7 @@
                 });
                 google.maps.event.addListener( marker, 'click', (function( marker, i) {
                     return function() {
-                        infowindow.setContent( '<b>' + getViewColumnValues('タイトル')[i] + '</b>');
+                        infowindow.setContent( '<b>' + titles[i] + '</b>');
                         infowindow.open( map, marker);
                     }
                 })( marker, i));
