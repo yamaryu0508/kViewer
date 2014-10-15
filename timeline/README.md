@@ -4,6 +4,7 @@
 
 ## 画面例（一覧画面）
 ![kviewer](image/kviewerImage.png)
+　サンプルページは[こちら](https://viewer.kintoneapp.com/public/index-view/90?viewCode=e2d482b02c766a6674f166e2e0c95fa642b1106d)
 
 ## インストール
 JavaScriptファイルをkViewerの設定画面からアップロードしてください。なお、本カスタマイズではDOMから値を取得しており、次の項目名が一覧画面のカスタマイズのために必要です。
